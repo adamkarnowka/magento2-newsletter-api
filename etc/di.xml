@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Albedo\NewsletterApi\Api\SubscriberManagementInterface" type="Albedo\NewsletterApi\Model\SubscriberManagement"/>
+	<preference for="Albedo\NewsletterApi\Api\Data\SubscriberInterface" type="Albedo\NewsletterApi\Model\Subscriber"/>
+	<preference for="Albedo\NewsletterApi\Api\Data\SubscribersSearchResultsInterface" type="Albedo\NewsletterApi\Model\SubscribersSearchResults"/>
+</config>

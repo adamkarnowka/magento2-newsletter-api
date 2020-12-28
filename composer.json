@@ -1,0 +1,22 @@
+{
+    "name": "albedo/module-newsletter-api",
+    "description": "REST API Layer for Magento Newsletter module.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "adam.karnowka@creativestyle.pl",
+            "name": "Adam Karnowka"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Albedo\\NewsletterApi\\": ""
+        }
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+	<route method="POST" url="/V1/subscriber">
+		<service class="Albedo\NewsletterApi\Api\SubscriberManagementInterface" method="postSubscriber"/>
+		<resources>
+			<resource ref="Albedo_NewsletterApi::write"/>
+		</resources>
+	</route>
+	<route method="POST" url="/V1/subscriber/:id/confirm">
+		<service class="Albedo\NewsletterApi\Api\SubscriberManagementInterface" method="postConfirm"/>
+		<resources>
+			<resource ref="Albedo_NewsletterApi::write"/>
+		</resources>
+	</route>
+	<route method="POST" url="/V1/subscriber/:id/confirm">
+		<service class="Albedo\NewsletterApi\Api\SubscriberManagementInterface" method="postConfirm"/>
+		<resources>
+			<resource ref="Albedo_NewsletterApi::write"/>
+		</resources>
+	</route>
+	<route method="POST" url="/V1/subscriber/:id/unsubscribe">
+		<service class="Albedo\NewsletterApi\Api\SubscriberManagementInterface" method="postUnsubscribe"/>
+		<resources>
+			<resource ref="Albedo_NewsletterApi::write"/>
+		</resources>
+	</route>
+	<route method="GET" url="/V1/subscribers">
+		<service class="Albedo\NewsletterApi\Api\SubscriberManagementInterface" method="getList"/>
+		<resources>
+			<resource ref="Albedo_NewsletterApi::read"/>
+		</resources>
+	</route>
+</routes>
