@@ -3,16 +3,13 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Magento_Backend::stores">
-                    <resource id="Magento_Backend::stores_settings">
-                        <resource id="Magento_Config::config">
-                            <resource id="Albedo_NewsletterApi::write" title="Newsletter Endpoint (write)"/>
-                            <resource id="Albedo_NewsletterApi::read" title="Newsletter Endpoint (read)"/>
-                        </resource>
+                <resource id="Magento_Backend::marketing">
+                    <resource id="Magento_Backend::marketing_communications">
+                        <resource id="Albedo_NewsletterApi::read" title="Newsletter API Endpoint (read)"/>
+                        <resource id="Albedo_NewsletterApi::write" title="Newsletter API Endpoint (write)"/>
                     </resource>
                 </resource>
             </resource>
         </resources>
     </acl>
 </config>
-
