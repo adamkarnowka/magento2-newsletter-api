@@ -1,24 +1,28 @@
 # Magento2 API Endpoint for Newsletter module
 
-    ``albedo/module-newsletter-api``
+    albedo/module-newsletter-api
 
 ### Description
-REST API Layer for Magento Newsletter module adds additional 4 methods which allow to manage Magento subscribers.
-Somehow, Magento Newsletter doesn't provide these methods, while they might be useful for 3rd party integrations with ESPs or other marketing software.
+REST API Layer for Magento Newsletter module adds additional 4 methods which allow to list and manage Magento subscribers.
+
+Somehow, Magento Newsletter doesn't provide these methods out of the box, while they might be useful for 3rd party integrations with ESPs or other marketing software.
 
 Features:
  - Possibility to get list using `searchCriteria`
  - Possiblity to subscribe/confiirm/unsubscribe using REST
  - Separate ACL rules for read/write permissions
  
- 📖 API Reference (Postman): https://documenter.getpostman.com/view/4376907/TVsxCSUj 
+ 
+When e-mail is subscribed, it will trigger/dispatch all observers and send e-mail to customer. It is equivalent to subscribe with normal form (same Magento methods used).
+
+ 📖  API Reference (Postman): https://documenter.getpostman.com/view/4376907/TVsxCSUj 
  
 You can run tests by executing:
 ```$xslt 
-php ../../../vendor/bin/phpunit ../../../app/code/Albedo/NewsletterApi/Test/* -c ../api-functional/phpunit_rest.xml --debug
+php ../../../vendor/bin/phpunit ../../../app/code/Albedo/NewsletterApi/Test/* -c ../api-functional/phpunit_rest.xml 
 ```
 
-⚠️Make sure to have `api-functional/phpunit_rest.xml` properly configured!
+⚠️ Make sure to have `api-functional/phpunit_rest.xml` properly configured!
 
 Roadmap:
  - possibility to send multiple contacts in one requests
