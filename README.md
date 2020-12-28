@@ -18,7 +18,7 @@ When e-mail is subscribed, it will trigger/dispatch all observers and send e-mai
  
 You can run tests by executing:
 ```$xslt 
-php ../../../vendor/bin/phpunit ../../../app/code/Albedo/NewsletterApi/Test/* -c ../api-functional/phpunit_rest.xml --debug
+php ../../../vendor/bin/phpunit ../../../app/code/Albedo/NewsletterApi/Test/* -c ../api-functional/phpunit_rest.xml 
 ```
 
 ⚠️ Make sure to have `api-functional/phpunit_rest.xml` properly configured!
