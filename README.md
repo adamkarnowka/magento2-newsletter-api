@@ -1,6 +1,6 @@
 # Magento2 API Endpoint for Newsletter module
 
-    ``albedo/module-newsletter-api``
+    albedo/module-newsletter-api
 
 ### Description
 REST API Layer for Magento Newsletter module adds additional 4 methods which allow to manage Magento subscribers.
@@ -11,14 +11,14 @@ Features:
  - Possiblity to subscribe/confiirm/unsubscribe using REST
  - Separate ACL rules for read/write permissions
  
- 📖 API Reference (Postman): https://documenter.getpostman.com/view/4376907/TVsxCSUj 
+ 📖  API Reference (Postman): https://documenter.getpostman.com/view/4376907/TVsxCSUj 
  
 You can run tests by executing:
 ```$xslt 
 php ../../../vendor/bin/phpunit ../../../app/code/Albedo/NewsletterApi/Test/* -c ../api-functional/phpunit_rest.xml --debug
 ```
 
-⚠️Make sure to have `api-functional/phpunit_rest.xml` properly configured!
+⚠️ Make sure to have `api-functional/phpunit_rest.xml` properly configured!
 
 Roadmap:
  - possibility to send multiple contacts in one requests
