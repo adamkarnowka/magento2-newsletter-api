@@ -11,6 +11,9 @@ Features:
  - Possiblity to subscribe/confiirm/unsubscribe using REST
  - Separate ACL rules for read/write permissions
  
+ 
+When e-mail is subscribed, it will trigger/dispatch all observers and send e-mail to customer. It is equivalent to subscribe with normal form (same Magento methods used).
+
  📖  API Reference (Postman): https://documenter.getpostman.com/view/4376907/TVsxCSUj 
  
 You can run tests by executing:
