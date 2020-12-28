@@ -3,8 +3,9 @@
     albedo/module-newsletter-api
 
 ### Description
-REST API Layer for Magento Newsletter module adds additional 4 methods which allow to manage Magento subscribers.
-Somehow, Magento Newsletter doesn't provide these methods, while they might be useful for 3rd party integrations with ESPs or other marketing software.
+REST API Layer for Magento Newsletter module adds additional 4 methods which allow to list and manage Magento subscribers.
+
+Somehow, Magento Newsletter doesn't provide these methods out of the box, while they might be useful for 3rd party integrations with ESPs or other marketing software.
 
 Features:
  - Possibility to get list using `searchCriteria`
