@@ -7,7 +7,7 @@ REST API Layer for Magento Newsletter module adds additional 4 methods which all
 
 Somehow, Magento Newsletter doesn't provide these methods out of the box, while they might be useful for 3rd party integrations with ESPs or other marketing software.
 
-Features:
+*Features:*
  - Possibility to get list using `searchCriteria`
  - Possiblity to subscribe/confiirm/unsubscribe using REST
  - Separate ACL rules for read/write permissions
@@ -24,7 +24,7 @@ php ../../../vendor/bin/phpunit ../../../app/code/Albedo/NewsletterApi/Test/* -c
 
 ⚠️ Make sure to have `api-functional/phpunit_rest.xml` properly configured!
 
-Roadmap:
+*Roadmap*:
  - possibility to send multiple contacts in one requests
  - deleting subscribers
 
