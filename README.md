@@ -7,6 +7,8 @@ REST API Layer for Magento Newsletter module adds additional 4 methods which all
 
 Somehow, Magento Newsletter doesn't provide these methods out of the box, while they might be useful for 3rd party integrations with ESPs or other marketing software.
 
+Read more on: https://karnowka.com/posts/magento2-newsletter-api/
+
 *Features:*
  - Possibility to get list using `searchCriteria`
  - Possiblity to subscribe/confiirm/unsubscribe using REST
